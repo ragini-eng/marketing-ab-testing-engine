@@ -40,7 +40,7 @@ df.to_csv(
     index=False
 )
 
-print("\n✅ Model-ready dataset saved successfully!")
+print("\n Model-ready dataset saved successfully!")
 
 # -------------------------
 # 3. DATA VALIDATION CHECKS
@@ -123,5 +123,6 @@ def run_linear_regression(target_col):
 # Run linear regression
 run_linear_regression("Time")
 run_linear_regression("revenue")
+
 
 
