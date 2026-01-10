@@ -31,6 +31,15 @@ This project demonstrates how A/B testing and statistical methods can be used to
 ## 📊 Dashboard: A/B Testing Performance Overview
 The dashboard compares control and treatment groups using key metrics such as conversion rate, uplift, and overall campaign performance. It is designed to help stakeholders quickly understand results and make informed marketing decisions.
 
+### Overall A/B Testing Performance
+![A/B Testing Overview](visuals/ab_testing_performance_overview.png)
+
+### Variant Comparison Analysis
+![Variant Analysis](visuals/Variant%20Analysis.png)
+
+### Analysis and Experiment Insights
+![Experiment Insights](visuals/Analysis%20And%20Experiment%20Insights.png)
+
 ---
 
 ## 🧠 Analytical Approach
