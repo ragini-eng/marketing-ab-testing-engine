@@ -69,6 +69,13 @@ The dashboard compares control and treatment groups using key metrics such as co
 
 ---
 
+## ▶️ How to Run This Project
+1. Go to the notebooks folder  
+2. Open the A/B testing notebook first  
+3. Check the dashboard images in the visuals folder  
+
+---
+
 ## 📁 Repository Structure
 
 marketing-ab-testing-engine/
