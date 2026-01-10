@@ -44,6 +44,12 @@ The dashboard compares control and treatment groups using key metrics such as co
 
 ---
 
+## 📌 Result
+- Treatment campaign gave better results than control campaign  
+- Results were statistically significant  
+- Treatment campaign is recommended for future use  
+
+---
 ## 📈 Key Insights
 - The treatment campaign demonstrated a clear improvement in conversion rate compared to the control group
 - Statistical testing confirmed that the observed uplift was significant and not due to random chance
