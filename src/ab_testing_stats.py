@@ -57,7 +57,7 @@ else:
 # -----------------------------------
 # Mean comparison (Business context)
 # -----------------------------------
-print("\n📈 Mean Session Duration Comparison")
+print("\n Mean Session Duration Comparison")
 print("Variant A mean:", round(A_time.mean(), 3))
 print("Variant B mean:", round(B_time.mean(), 3))
 print("Difference (B - A):", round(B_time.mean() - A_time.mean(), 3))
