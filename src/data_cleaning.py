@@ -3,7 +3,7 @@ import pandas as pd
 # -----------------------------
 # 1. LOAD THE DATA
 # -----------------------------
-df = pd.read_csv("data/processed/final_marketing_ab_testing_dataset.csv")   # ← change file name if different
+df = pd.read_csv("data/processed/final_marketing_ab_testing_dataset.csv")  
 
 print("Original Data Shape:", df.shape)
 
@@ -31,9 +31,9 @@ print("Missing values fixed!")
 
 
 # -----------------------------
-# 4. CREATE A DATE COLUMN (Important for Time Series)
+# 4. CREATE A DATE COLUMN 
 # -----------------------------
-# If your dataset already has 'year', 'month', 'day' columns:
+# If dataset already has 'year', 'month', 'day' columns:
 if {'year', 'month', 'day'}.issubset(df.columns):
     df['date'] = pd.to_datetime(df[['year', 'month', 'day']])
     print("Date column created!")
@@ -42,7 +42,7 @@ else:
 
 
 # -----------------------------
-# 5. REMOVE OUTLIERS (Optional)
+# 5. REMOVE OUTLIERS 
 # -----------------------------
 for col in numeric_cols:
     Q1 = df[col].quantile(0.25)
