@@ -7,7 +7,7 @@ df = pd.read_csv("data/model_ready_marketing_ab_testing_dataset.csv")
 # Create exports folder if it doesn't exist
 os.makedirs("exports", exist_ok=True)
 
-# Save final dataset for SQL / Excel / Power BI
+# Save final dataset 
 df.to_csv("exports/final_ab_testing_dataset.csv", index=False)
 df.to_excel("exports/final_ab_testing_dataset.xlsx", index=False)
 
